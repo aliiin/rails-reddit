@@ -1,0 +1,11 @@
+I"ö(function() {
+  var conversation;
+
+  App.group / (conversation = App.cable.subscriptions.create("Group::ConversationChannel", {
+    connected: function() {},
+    disconnected: function() {},
+    received: function(data) {}
+  }));
+
+}).call(this);
+:ET
